@@ -6,6 +6,7 @@ void main() => runApp(
           appBar: AppBar(
             title: Text('Transferência'),
           ),
+          body: Text('teste'),
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
             backgroundColor: Colors.blue,
