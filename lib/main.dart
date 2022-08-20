@@ -8,9 +8,9 @@ void main() => runApp(
           ),
           body: Card(
             child: ListTile(
-              leading: FlutterLogo(size: 56.0),
-              title: Text('Two-line ListTile'),
-              subtitle: Text('Here is a second line'),
+              leading: Icon(Icons.monetization_on),
+              title: Text('1000.00'),
+              subtitle: Text('123456'),
               trailing: Icon(Icons.more_vert),
             ),
           ),
