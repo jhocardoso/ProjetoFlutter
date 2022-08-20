@@ -7,8 +7,8 @@ void main() => runApp(
             title: Text('Transferência'),
           ),
           floatingActionButton: FloatingActionButton(
-            onPressed: () => setState(() => _count++),
-            tooltip: 'Increment Counter',
+            onPressed: () {},
+            backgroundColor: Colors.blue,
             child: const Icon(Icons.add),
           ),
         ),
